@@ -8,11 +8,6 @@
 	font-size: 14px;
 }
 
-#cdawrap {
-    --cda-left: 4rem;
-    --cda-bottom: 3rem;
-}
-
 body {
 	margin: 0;
 	--color-text: #e5e3e0;
@@ -89,7 +84,7 @@ body {
 .js .loading::after {
 	content: '';
 	position: fixed;
-	z-index: 1000;
+	z-index: 1100;
 }
 
 .js .loading::before {
@@ -249,6 +244,11 @@ main {
 .menu {
 	display: flex;
 	flex-direction: column;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .menu__item {

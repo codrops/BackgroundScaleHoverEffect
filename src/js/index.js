@@ -4,7 +4,7 @@ import Navigation from "./navigation";
 // Preload images
 const preloadImages = () => {
     return new Promise((resolve, reject) => {
-        imagesLoaded(document.querySelectorAll('.screen__item'), {background: true}, resolve);
+        imagesLoaded(document.querySelectorAll('.screen'), {background: true}, resolve);
     });
 };
 
